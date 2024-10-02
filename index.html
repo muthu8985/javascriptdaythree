@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_day_three</title>
+</head>
+<body>
+    <!--8 type of Data Types -->
+    <!-- 1.Numbers -->
+     <!-- more than 64 bit we can store in bigint -->
+     <script>
+     let len= 12;
+     let width= 13;
+     let area=len*width
+document.write("value of area="+area)
+     </script>
+     <!-- 2.string -->
+      <script>
+        let color1="blue";
+        let color2="green";
+        let flag=color1+color2;
+        document.write(flag)
+      </script>
+
+<!-- 3.boolean  -->
+<p id="demo"></p>
+
+<script>
+let x = 1;
+let y = 1;
+let z = 3;
+
+document.getElementById("demo").innerHTML =
+(x == y) + "<br>" + (x == z);
+</script>
+<!-- 4.Arrays -->
+ <h1>my cars</h1>
+ <h1 id="car"></h1>
+ <script>
+    const mycar=["kia","tata","mahindra"]
+    document.getElementById("car").innerHTML= mycar[1];
+ </script>
+ <p id =demoobj></p>
+    <script src="index.js"></script>
+    
+</body>
+</html>
